@@ -35,6 +35,7 @@ export async function writeData(
 
             return true
         } catch (e) {
+            console.log(e)
             return false
         }
     }
