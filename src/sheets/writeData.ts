@@ -23,7 +23,7 @@ export async function writeData(
         const endRange = `${endRangeColumnName}${data.length}`
         const request = {
             spreadsheetId: spreadsheetId,
-            range: `${sheetName}${startRange}:${endRange}`,
+            range: `${sheetName}!${startRange}:${endRange}`,
             resource: {
                 values: data,
             },
