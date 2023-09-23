@@ -1,0 +1,30 @@
+{
+    "name": "lbh-google-sheets-helpers",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "preinstall": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LucifierArchangel/lbh-google-sheets-helpers.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LucifierArchangel/lbh-google-sheets-helpers/issues"
+    },
+    "homepage": "https://github.com/LucifierArchangel/lbh-google-sheets-helpers#readme",
+    "devDependencies": {
+        "@types/node": "^20.6.3",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "@google-cloud/local-auth": "^3.0.0",
+        "dotenv": "^16.3.1",
+        "googleapis": "^126.0.1"
+    }
+}
